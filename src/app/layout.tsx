@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Hero from "@/components/hero/page";
 import MiniWatch from "@/components/MiniWatch/page";
+import Products from "@/components/products/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({
       >
         <Hero />
         <MiniWatch />
+        <Products />
         {children}
       </body>
     </html>
